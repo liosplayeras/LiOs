@@ -50,12 +50,7 @@
 	<link rel='stylesheet' id='dokan-theme-skin-css'  href='./sources/css/purple.css' type='text/css' media='all' />
 
 	<script type='text/javascript' src='./sources/js/jquery.js?ver=1.12.4'></script>
-	<script type='text/javascript' src='./sources/js/jquery-migrate.min.js?ver=1.4.1'></script>
-	<script type='text/javascript'>
-	/* <![CDATA[ */
-	var userSettings = {"url":"\/","uid":"0","time":"1525992789","secure":"1"};
-	/* ]]> */
-	</script>
+
 	<script type='text/javascript' src='./sources/js/utils.min.js?ver=4.8.4'></script>
 	<script type='text/javascript' src='./sources/js/plupload.full.min.js?ver=2.1.8'></script>
 
@@ -161,9 +156,9 @@
                               ./sources/images/hombres/h_call_of_duty.jpg 600w,
                               ./sources/images/hombres/h_call_of_duty.jpg 1200w,
                               ./sources/images/hombres/h_call_of_duty.jpg 1440w"
-                              sizes="(max-width: 400px) 100vw, 400px">            </a>
-                              <!--a class="theme-card__body__overlay btn btn-brand btn-sm" data-toggle="modal" data-target="#exampleModal" href="#exampleModal">Detalle</a-->
-                 </div>
+                              sizes="(max-width: 400px) 100vw, 400px" id="imageresource">            </a>
+                              <a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop">Detalle</a>
+                            </div>
                            <div class="theme-card__footer">
                               <div class="theme-card__footer__item">
                                  <a class="theme-card__title mr-1" href="#">Playeras para Hombre</a>
@@ -211,7 +206,8 @@
                               ./sources/images/mujeres/m_gato_ojon.jpg 600w,
                               ./sources/images/mujeres/m_gato_ojon.jpg 1200w,
                               ./sources/images/mujeres/m_gato_ojon.jpg 1440w"
-                              sizes="(max-width: 400px) 100vw, 400px">            </a>
+                              sizes="(max-width: 400px) 100vw, 400px" id="imageresource1">            </a>
+                              <a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop1">Detalle</a>
                     </div>
                            <div class="theme-card__footer">
                               <div class="theme-card__footer__item">
@@ -258,7 +254,8 @@
                               ./sources/images/mandilones/mand_monos_corazon.jpg 600w,
                               ./sources/images/mandilones/mand_monos_corazon.jpg 1200w,
                               ./sources/images/mandilones/mand_monos_corazon.jpg 1440w"
-                              sizes="(max-width: 400px) 100vw, 400px">            </a>
+                              sizes="(max-width: 400px) 100vw, 400px" id="imageresource2">            </a>
+                              <a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop2">Detalle</a>
                          </div>
                            <div class="theme-card__footer">
                               <div class="theme-card__footer__item">
@@ -313,9 +310,9 @@
                               ./sources/images/hombres/h_game_over.jpg 200w,
                               ./sources/images/hombres/h_game_over.jpg 600w,
                               ./sources/images/hombres/h_game_over.jpg 1200w"
-                              sizes="(max-width: 400px) 100vw, 400px">            </a>
-                              <!--a class="theme-card__body__overlay btn btn-brand btn-sm" target="_blank" href="#">Detalles</a-->
-                           </div>
+                              sizes="(max-width: 400px) 100vw, 400px" id="imageresource3">            </a>
+                              <a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop3">Detalle</a>
+                             </div>
                            <div class="theme-card__footer">
                               <div class="theme-card__footer__item">
                                  <a class="theme-card__title mr-1" href="#">Playera Game Over</a>
@@ -361,7 +358,8 @@
                               ./sources/images/hombres/h_meme.jpg 200w,
                               ./sources/images/hombres/h_meme.jpg 600w,
                               ./sources/images/hombres/h_meme.jpg 1366w"
-                              sizes="(max-width: 400px) 100vw, 400px">            </a>
+                              sizes="(max-width: 400px) 100vw, 400px" id="imageresource4">            </a>
+                              <a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop4">Detalle</a>
                            </div>
                            <div class="theme-card__footer">
                               <div class="theme-card__footer__item">
@@ -407,7 +405,8 @@
                                ./sources/images/hombres/h_carita.jpg 200w,
                                ./sources/images/hombres/h_carita.jpg 600w,
                                ./sources/images/hombres/h_carita.jpg 1200w"
-                               sizes="(max-width: 400px) 100vw, 400px">            </a>
+                               sizes="(max-width: 400px) 100vw, 400px" id="imageresource5">            </a>
+                               <a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop5">Detalle</a>
                            </div>
                            <div class="theme-card__footer">
                               <div class="theme-card__footer__item">
@@ -453,7 +452,8 @@
                                ./sources/images/hombres/h_mono.jpg 200w,
                                ./sources/images/hombres/h_mono.jpg 600w,
                                ./sources/images/hombres/h_mono.jpg 1200w"
-                               sizes="(max-width: 400px) 100vw, 400px">            </a>
+                               sizes="(max-width: 400px) 100vw, 400px" id="imageresource6">            </a>
+                               <a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop6">Detalle</a>
                            </div>
                            <div class="theme-card__footer">
                               <div class="theme-card__footer__item">
@@ -510,7 +510,8 @@
                               ./sources/images/mujeres/m_game_over.jpg 200w,
                               ./sources/images/mujeres/m_game_over.jpg 400w,
                               ./sources/images/mujeres/m_game_over.jpg 1200w"
-                              sizes="(max-width: 600px) 100vw, 600px">            </a>
+                              sizes="(max-width: 600px) 100vw, 600px" id="imageresource7">            </a>
+                              <a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop7">Detalle</a>
                            </div>
                            <div class="theme-card__footer">
                               <div class="theme-card__footer__item">
@@ -556,7 +557,8 @@
                               ./sources/images/mujeres/m_catira.jpg 200w,
                               ./sources/images/mujeres/m_catira.jpg 400w,
                               ./sources/images/mujeres/m_catira.jpg 1200w"
-                              sizes="(max-width: 600px) 100vw, 600px">            </a>
+                              sizes="(max-width: 600px) 100vw, 600px" id="imageresource8">            </a>
+                              <a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop8">Detalle</a>
                            </div>
                            <div class="theme-card__footer">
                               <div class="theme-card__footer__item">
@@ -602,7 +604,8 @@
 							  ./sources/images/mujeres/m_arbol.jpg 768w,
 							  ./sources/images/mujeres/m_arbol.jpg 200w,
 							  ./sources/images/mujeres/m_arbol.jpg 600w,
-							  ./sources/images/mujeres/m_arbol.jpg 1200w" sizes="(max-width: 400px) 100vw, 400px">            </a>
+							  ./sources/images/mujeres/m_arbol.jpg 1200w" sizes="(max-width: 400px) 100vw, 400px" id="imageresource9">            </a>
+                <a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop9">Detalle</a>
                            </div>
                            <div class="theme-card__footer">
                               <div class="theme-card__footer__item">
@@ -647,7 +650,8 @@
 							  ./sources/images/mujeres/m_buho_rama.jpg 768w,
 							  ./sources/images/mujeres/m_buho_rama.jpg 200w,
 							  ./sources/images/mujeres/m_buho_rama.jpg 600w,
-							  ./sources/images/mujeres/m_buho_rama.jpg 1200w" sizes="(max-width: 400px) 100vw, 400px">            </a>
+							  ./sources/images/mujeres/m_buho_rama.jpg 1200w" sizes="(max-width: 400px) 100vw, 400px" id="imageresource10">            </a>
+                <a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop10">Detalle</a>
                            </div>
                            <div class="theme-card__footer">
                               <div class="theme-card__footer__item">
@@ -692,7 +696,8 @@
                ./sources/images/mujeres/m_manos_cruz.jpg 768w,
                ./sources/images/mujeres/m_manos_cruz.jpg 200w,
                ./sources/images/mujeres/m_manos_cruz.jpg 600w,
-               ./sources/images/mujeres/m_manos_cruz.jpg 1200w" sizes="(max-width: 400px) 100vw, 400px">            </a>
+               ./sources/images/mujeres/m_manos_cruz.jpg 1200w" sizes="(max-width: 400px) 100vw, 400px" id="imageresource11">            </a>
+               <a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop11">Detalle</a>
                            </div>
                            <div class="theme-card__footer">
                               <div class="theme-card__footer__item">
@@ -748,7 +753,8 @@
                               ./sources/images/mandilones/mand_monos_corazon.jpg 200w,
                               ./sources/images/mandilones/mand_monos_corazon.jpg 400w,
                               ./sources/images/mandilones/mand_monos_corazon.jpg 1200w"
-                              sizes="(max-width: 600px) 100vw, 600px">            </a>
+                              sizes="(max-width: 600px) 100vw, 600px" id="imageresource12">            </a>
+                              <a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop12">Detalle</a>
                            </div>
                            <div class="theme-card__footer">
                               <div class="theme-card__footer__item">
@@ -793,7 +799,8 @@
                               ./sources/images/mandilones/mand_monos_audif.jpg 200w,
                               ./sources/images/mandilones/mand_monos_audif.jpg 400w,
                               ./sources/images/mandilones/mand_monos_audif.jpg 1200w"
-                              sizes="(max-width: 600px) 100vw, 600px">            </a>
+                              sizes="(max-width: 600px) 100vw, 600px" id="imageresource13">            </a>
+                              <a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop13">Detalle</a>
                            </div>
                            <div class="theme-card__footer">
                               <div class="theme-card__footer__item">
@@ -1081,7 +1088,7 @@
               </button>
             </div>
             <div class="modal-body">
-              ...
+               <img src="" id="imagepreview" style="width: 500px; height: 500px;" >
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -1089,5 +1096,80 @@
           </div>
         </div>
       </div>
+      <script type='text/javascript'>
+      $("#pop").on("click", function() {
+         $('#imagepreview').attr('src', $('#imageresource').attr('src')); // here asign the image to the modal when the user click the enlarge link
+         $('#exampleModal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+      });
+      $("#pop1").on("click", function() {
+         $('#imagepreview').attr('src', $('#imageresource1').attr('src')); // here asign the image to the modal when the user click the enlarge link
+         $('#exampleModal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+      });
+
+      $("#pop2").on("click", function() {
+         $('#imagepreview').attr('src', $('#imageresource2').attr('src')); // here asign the image to the modal when the user click the enlarge link
+         $('#exampleModal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+      });
+
+      $("#pop3").on("click", function() {
+         $('#imagepreview').attr('src', $('#imageresource3').attr('src')); // here asign the image to the modal when the user click the enlarge link
+         $('#exampleModal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+      });
+
+      $("#pop4").on("click", function() {
+         $('#imagepreview').attr('src', $('#imageresource4').attr('src')); // here asign the image to the modal when the user click the enlarge link
+         $('#exampleModal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+      });
+
+      $("#pop5").on("click", function() {
+         $('#imagepreview').attr('src', $('#imageresource5').attr('src')); // here asign the image to the modal when the user click the enlarge link
+         $('#exampleModal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+      });
+
+      $("#pop6").on("click", function() {
+         $('#imagepreview').attr('src', $('#imageresource6').attr('src')); // here asign the image to the modal when the user click the enlarge link
+         $('#exampleModal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+      });
+
+      $("#pop7").on("click", function() {
+         $('#imagepreview').attr('src', $('#imageresource7').attr('src')); // here asign the image to the modal when the user click the enlarge link
+         $('#exampleModal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+      });
+
+      $("#pop8").on("click", function() {
+         $('#imagepreview').attr('src', $('#imageresource8').attr('src')); // here asign the image to the modal when the user click the enlarge link
+         $('#exampleModal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+      });
+
+      $("#pop9").on("click", function() {
+         $('#imagepreview').attr('src', $('#imageresource9').attr('src')); // here asign the image to the modal when the user click the enlarge link
+         $('#exampleModal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+      });
+
+      $("#pop10").on("click", function() {
+         $('#imagepreview').attr('src', $('#imageresource10').attr('src')); // here asign the image to the modal when the user click the enlarge link
+         $('#exampleModal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+      });
+
+      $("#pop11").on("click", function() {
+         $('#imagepreview').attr('src', $('#imageresource11').attr('src')); // here asign the image to the modal when the user click the enlarge link
+         $('#exampleModal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+      });
+
+      $("#pop12").on("click", function() {
+         $('#imagepreview').attr('src', $('#imageresource12').attr('src')); // here asign the image to the modal when the user click the enlarge link
+         $('#exampleModal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+      });
+
+      $("#pop13").on("click", function() {
+         $('#imagepreview').attr('src', $('#imageresource13').attr('src')); // here asign the image to the modal when the user click the enlarge link
+         $('#exampleModal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+      });
+
+      $("#pop14").on("click", function() {
+         $('#imagepreview').attr('src', $('#imageresource14').attr('src')); // here asign the image to the modal when the user click the enlarge link
+         $('#exampleModal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+      });
+      </script>
    </body>
 </html>
