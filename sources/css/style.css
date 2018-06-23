@@ -5734,7 +5734,9 @@ tbody.collapse.show {
   padding: 1.25rem; }
 
 .card-title {
-  margin-bottom: 0.75rem; }
+  margin-bottom: 0.75rem;
+font-size: 2.5rem;
+}
 
 .card-subtitle {
   margin-top: -0.375rem;
@@ -6538,7 +6540,8 @@ button.close {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 15px; }
+  /*padding: 15px; */
+}
 
 .modal-footer {
   display: -webkit-box;
@@ -11122,8 +11125,9 @@ button, input, optgroup, select, textarea {
   position: absolute;
   right: 10px;
   bottom: 10px;
-  opacity: 0;
-  visibility: hidden; }
+  /*opacity: 0;
+  visibility: hidden;*/
+}
 
 .theme-card__footer {
   padding: 15px 8px;
