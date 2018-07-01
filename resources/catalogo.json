@@ -1,0 +1,221 @@
+{
+	"miapp": {
+		"id": "1",
+		"nombre": "Kerosene",
+		"imagen": "./sources/images/Oildrop.png",
+		"ubicacion": "ubicacion",
+		"catalogo": {
+			"hombres": [{
+				"id": "1",
+				"nombre": "Playeras para Hombre",
+				"color": "",
+				"precio": "180.00",
+				"talla": "",
+				"onclick": "verPlayerasHombre()",
+				"imagen": "./sources/images/hombres/2018-05-08-PHOTO-00063816.jpg",
+				"playeras": [{
+					"id": "1",
+					"nombre": "Playera Meme",
+					"color": "b,a,n,r",
+					"precio": "150.00",
+					"talla": "ch,m,g,xl",
+					"imagen": "./sources/images/hombres/2018-05-08-PHOTO-00063816.jpg",
+					"dispo": "s",
+					"oferta": "s",
+					"onclick": "detallePayera()"
+				}, {
+					"id": "2",
+					"nombre": "",
+					"color": "",
+					"precio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}, {
+					"id": "3",
+					"nombre": "",
+					"color": "",
+					"precio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}]
+			}],
+			"mujeres": [{
+				"id": "1",
+				"nombre": "Playeras para Mujer",
+				"color": "",
+				"precio": "180.00",
+				"talla": "",
+				"onclick": "verPlayerasMujer()",
+				"imagen": "./sources/images/mujeres/2018-05-08-PHOTO-00063816.jpg",
+				"playeras": [{
+					"id": "1",
+					"nombre": "",
+					"color": "",
+					"precio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}, {
+					"id": "2",
+					"nombre": "",
+					"color": "",
+					"precio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}, {
+					"id": "3",
+					"nombre": "",
+					"color": "",
+					"precio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}]
+			}],
+			"ninos": [{
+				"id": "1",
+				"nombre": "Playeras para Nino",
+				"color": "",
+				"precio": "180.00",
+				"talla": "",
+				"onclick": "verPlayerasNino()",
+				"imagen": "./sources/images/ninos/2018-05-08-PHOTO-00063816.jpg",
+				"playeras": [{
+					"id": "1",
+					"nombre": "",
+					"color": "",
+					"precio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}, {
+					"id": "2",
+					"nombre": "",
+					"color": "",
+					"precio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}, {
+					"id": "3",
+					"nombre": "",
+					"color": "",
+					"precio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}]
+			}],
+			"parejas": [{
+				"id": "1",
+				"nombre": "Playeras para Parejas",
+				"color": "",
+				"precio": "180.00",
+				"talla": "",
+				"onclick": "verPlayerasParejas()",
+				"imagen": "./sources/images/mandilones/2018-05-08-PHOTO-00063816.jpg",
+				"playeras": [{
+					"id": "1",
+					"nombre": "",
+					"color": "",
+					"precio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}, {
+					"id": "2",
+					"nombre": "",
+					"color": "",
+					"precio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}, {
+					"id": "3",
+					"nombre": "",
+					"color": "",
+					"precio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}]
+			}]
+		},
+		"popular": [{
+				"id": "1",
+				"nombre": "Playeras para Hombre",
+				"color": "",
+				"precio": "180.00",
+				"talla": "",
+				"imagen": "./sources/images/hombres/2018-05-08-PHOTO-00063816.jpg",
+				"dispo": "",
+				"onclick": "detallePayera()"
+			},
+			{
+				"id": "2",
+				"nombre": "Playeras para Mujer",
+				"color": "",
+				"precio": "180.00",
+				"talla": "",
+				"imagen": "./sources/images/mujeres/2018-05-08-PHOTO-00063816.jpg",
+				"dispo": "",
+				"onclick": "detallePayera()"
+			}
+		],
+		"nuevo": [{
+				"id": "1",
+				"nombre": "Playeras para Hombre",
+				"color": "",
+				"precio": "180.00",
+				"talla": "",
+				"imagen": "./sources/images/hombres/2018-05-08-PHOTO-00063816.jpg",
+				"dispo": "",
+				"onclick": "detallePayera()"
+			},
+			{
+				"id": "2",
+				"nombre": "Playeras para Mujer",
+				"color": "",
+				"precio": "180.00",
+				"talla": "",
+				"imagen": "./sources/images/mujeres/2018-05-08-PHOTO-00063816.jpg",
+				"dispo": "",
+				"onclick": "detallePayera()"
+			},
+			{
+				"id": "3",
+				"nombre": "Playeras para Gamers",
+				"color": "",
+				"precio": "180.00",
+				"talla": "",
+				"imagen": "./sources/images/hombres/2018-05-08-PHOTO-00063816.jpg",
+				"dispo": "",
+				"onclick": "detallePayera()"
+			},
+			{
+				"id": "4",
+				"nombre": "Playeras para Parejas",
+				"color": "",
+				"precio": "180.00",
+				"talla": "",
+				"imagen": "./sources/images/mandilones/2018-05-08-PHOTO-00063816.jpg",
+				"dispo": "",
+				"onclick": "detallePayera()"
+			}
+		]
+	}
+}

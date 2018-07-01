@@ -6,7 +6,7 @@
      <title>LiOs - Playeras estampadas</title>
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="author" content="LiOs">
-      <link rel="shortcut icon" href="./sources/images/mono.jpg" />
+      <link rel="shortcut icon" href="./resources/images/mono.jpg" />
       <link rel="icon" type="image/png" href="./sources/images/mono.jpg">
       <meta name="description" content="LiOs, playeras estampadas para hombre, mujer y parejas, tenemos varios modelos de playeras y estampados."/>
       <link rel="canonical" href="https://liosplayeras.github.io/LiOs/" />
@@ -29,1079 +29,1108 @@
       <!--[if lt IE 8]>
       <script type='text/javascript' src='https://themes.getbootstrap.com/wp-includes/js/json2.min.js?ver=2015-05-03'></script>
       <![endif]-->
-      <script src='./sources/js/jquery.min.js'></script>
-    <script src='./sources/js/popper.min.js'></script>
-          <script src='./sources/js/bootstrap.min.js'></script>
-      <!-- The filemtime is to append a timestamp for the last time the stylesheet was updated to automate cache busting from CloudFlare -->
-
-	  <link rel='stylesheet' id='woocommerce-layout-css'  href='./sources/css/woocommerce-layout.css?ver=3.1.2' type='text/css' media='all' />
-	<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='./sources/css/woocommerce-smallscreen.css?ver=3.1.2' type='text/css' media='only screen and (max-width: 768px)' />
-	<link rel='stylesheet' id='woocommerce-general-css'  href='./sources/css/woocommerce.css?ver=3.1.2' type='text/css' media='all' />
-	<link rel='stylesheet' id='dokan-fontawesome-css'  href='./sources/css/font-awesome.min.css' type='text/css' media='all' />
-	<link rel='stylesheet' id='buttons-css'  href='./sources/css/buttons.min.css?ver=4.8.4' type='text/css' media='all' />
-	<link rel='stylesheet' id='dashicons-css'  href='./sources/css/dashicons.min.css?ver=4.8.4' type='text/css' media='all' />
-	<link rel='stylesheet' id='mediaelement-css'  href='./sources/css/mediaelementplayer.min.css?ver=2.22.0' type='text/css' media='all' />
-	<link rel='stylesheet' id='wp-mediaelement-css'  href='./sources/css/wp-mediaelement.min.css?ver=4.8.4' type='text/css' media='all' />
-	<link rel='stylesheet' id='media-views-css'  href='./sources/css/media-views.min.css?ver=4.8.4' type='text/css' media='all' />
-	<link rel='stylesheet' id='imgareaselect-css'  href='./sources/css/imgareaselect.css?ver=0.9.8' type='text/css' media='all' />
-	<link rel='stylesheet' id='flexslider-css'  href='./sources/css/flexslider.css' type='text/css' media='all' />
-	<link rel='stylesheet' id='dokan-opensans-css'  href='./sources/css/css?family=Open+Sans%3A400%2C700&#038;ver=4.8.4' type='text/css' media='all' />
-	<link rel='stylesheet' id='dokan-theme-skin-css'  href='./sources/css/purple.css' type='text/css' media='all' />
-
-	<script type='text/javascript' src='./sources/js/jquery.js?ver=1.12.4'></script>
-
-	<script type='text/javascript' src='./sources/js/utils.min.js?ver=4.8.4'></script>
-	<script type='text/javascript' src='./sources/js/plupload.full.min.js?ver=2.1.8'></script>
-
-      <link rel="stylesheet" href="./sources/css/style.css">
-      <link rel="stylesheet" href="./sources/css/bootstrap.min.css">
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async="" src="./sources/js/js"></script>
+      <link rel='stylesheet' id='dokan-fontawesome-css'  href='./resources/css/font-awesome.min.css' type='text/css' media='all' />
+      <link href="./resources/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Documentation extras -->
+      <!--link href="./resources/css/docs.min.css" rel="stylesheet"-->
+      <link href="./resources/css/carousel.css" rel="stylesheet">
+      <link href="./resources/css/style.css" rel="stylesheet">
+      <script type='text/javascript' src='./resources/js/jquery.min.js'></script>
    </head>
-   <body class="home blog woocommerce dokan-theme-dokan">
-     <nav class="navbar navbar-expand-lg navbar-light">
+   <body>
+    <a id="skippy" class="sr-only sr-only-focusable" href="#content">
+      <div class="container">
+        <span class="skiplink-text">Skip to main content</span>
+      </div>
+    </a>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light flex-column flex-md-row bd-navbar">
         <div class="container">
-           <a href="#" class="navbar-brand">LiOs</a>
+          <img width="60" height="40" src="./resources/images/mono.jpg"/>
+           <a href="index.html" class="navbar-brand">LiOs</a>
            <div class="d-flex ml-auto">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#globalNavbar" aria-controls="globalNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#globalNavbar" aria-controls="globalNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
            </div>
-           <div class="collapse navbar-collapse" id="globalNavbar">
-              <!--form class="form-inline form-navbar my-2 my-lg-0 order-2" action="https://themes.getbootstrap.com/shop/">
-                 <input class="form-control" name="s" type="text" placeholder="Search">
-                 </form-->
-              <ul class="navbar-nav mr-auto order-1">
+          <div class="collapse navbar-collapse" id="globalNavbar">
+                          <ul class="navbar-nav mr-auto order-1">
                  <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorias</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                        <div class="navbar-collapse navbar-top-collapse">
                           <ul id="menu-top-menu" class="nav navbar-nav">
-                             <li id="menu-item-601" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-601"><a title="Admin &amp; Dashboard" href="#hombres_dat">Hombres</a></li>
-                             <li id="menu-item-603" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-603"><a title="Landing &amp; Corporate" href="#mujeres_dat">Mujeres</a></li>
-                             <li id="menu-item-602" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-602"><a title="E-Commerce &amp; Retail" href="#mandilones_dat">Parejas</a></li>
-                             <li id="menu-item-602" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-602"><a title="E-Commerce &amp; Retail" href="#proximamente_dat">Proximamente ...</a></li>
+                             <li id="menu-item-601" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-601">
+                              <a title="Admin &amp; Dashboard" href="#hombres_dat">Hombres</a></li>
+                             <li id="menu-item-603" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-603">
+                              <a title="Landing &amp; Corporate" href="#mujeres_dat">Mujeres</a></li>
+                             <li id="menu-item-602" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-602">
+                              <a title="E-Commerce &amp; Retail" href="#mandilones_dat">Parejas</a></li>
+                             <!--li id="menu-item-602" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-602">
+                              <a title="E-Commerce &amp; Retail" href="#proximamente_dat">Proximamente ...</a>
+                             </li-->
                           </ul>
                        </div>
                     </div>
                  </li>
+                 <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                 <li class="nav-item"><a class="nav-link" href="plantillas.html">Plantillas</a></li>
               </ul>
               <ul class="navbar-nav d-none d-lg-flex ml-2 order-3">
                  <li class="nav-item"><a class="nav-link" href="contacto.html">Contactanos</a></li>
+
               </ul>
               <ul class="navbar-nav d-lg-none">
                  <li class="nav-item-divider"></li>
                  <li class="nav-item"><a class="nav-link" href="contacto.html">Contactanos</a></li>
               </ul>
-           </div>
+          </div>
         </div>
-     </nav>
-      <!-- Navigation -->
-      <main id="main" class="site-main main">
-         <section class="hero">
+      </nav>
+</header>
+ <main role="main">
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
+          <li data-target="#myCarousel" data-slide-to="6"></li>
+          <li data-target="#myCarousel" data-slide-to="7"></li>
+          <li data-target="#myCarousel" data-slide-to="8"></li>
+          <li data-target="#myCarousel" data-slide-to="9"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img class="d-block img-fluid" src="./resources/images/hombres/indice.jpg" srcset="./resources/images/slider/indice.jpg 1x,
+            ./resources/images/hombres/indice.jpg 2x"/>
+            <!--div class="" style="background-image:url('./resources/images/slider/indice.jpg?1518635571');">
+            </div-->
             <div class="container">
-              <!-- Wrapper for slides -->
-              <div id="carousel-home" class="carousel slide" data-ride="carousel">
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                  <div class="carousel-item active" >
-
-                     <img src="./sources/images/mono.jpg" srcset="./sources/images/mono.jpg 1x, ./sources/images/mono.jpg 2x"/>
-                     <h1 class="display-1 text-bold" style="color: #000;">LiOs</h1>
-                     <h5 class="text-gray-soft text-regular">Playeras estampadas.</h5>
-
-
-                  </div>
-                  <div class="carousel-item" style="background-image:url('./sources/images/hombres/2018-05-08-PHOTO-00063823.jpg?1518635571');">
-                  </div>
-                  <div class="carousel-item" style="background-image:url('./sources/images/mujeres/m_buho_rama1.jpg?1518635571');">
-                  </div>
-                  <div class="carousel-item" style="background-image:url('./sources/images/mujeres/m_gato_ojon1.jpg?1518635571');">
-                  </div>
-
-                </div>
-                <!-- Controls -->
-                <a class="carousel-control-prev" href="#carousel-home" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carousel-home" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+              <div class="carousel-caption text-left">
+                <h1>Playeras personalizadas.</h1>
+                <!--p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p-->
+                <p>
+                  <!--a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a-->
+                </p>
               </div>
             </div>
-         </section>
-         <section class="section">
+          </div>
+          <div class="carousel-item">
+          <img class="d-block img-fluid" src="./resources/images/slider/h_meme_blanco.jpg" srcset="./resources/images/slider/h_meme_blanco.jpg 1x,
+            ./resources/images/slider/h_meme_blanco.jpg 2x"/>
             <div class="container">
-               <div class="theme-cards-holder">
-                  <div class="theme-cards__heading">
-                     <div>
-                        <h5 class="theme-cards__title">Ponte a la moda con Playeras LiOs.</h5>
-                        <p class="text-gray-soft">Encuentra playeras estampadas de moda para Hombre, Mujer o para Parejas.</p>
-                     </div>
-                     <!--a class="theme-cards__heading__button btn btn-outline-brand btn-sm" href="https://themes.getbootstrap.com/official-themes">Learn more</a-->
-                  </div>
-                  <ul class="row">
-                     <li class="col-md-4">
-                        <div class="theme-card">
-                           <div class="theme-card__body">
-                              <a class="d-block" id="pop" >
-                              <img width="400" height="300" src="./sources/images/hombres/h_call_of_duty.jpg"
-                              class="theme-card__img wp-post-image" alt=""
-                              srcset="./sources/images/hombres/h_call_of_duty_500.jpg 400w,
-                              ./sources/images/hombres/h_call_of_duty.jpg 300w,
-                              ./sources/images/hombres/h_call_of_duty.jpg 768w,
-                              ./sources/images/hombres/h_call_of_duty.jpg 1024w,
-                              ./sources/images/hombres/h_call_of_duty.jpg 200w,
-                              ./sources/images/hombres/h_call_of_duty.jpg 600w,
-                              ./sources/images/hombres/h_call_of_duty.jpg 1200w,
-                              ./sources/images/hombres/h_call_of_duty.jpg 1440w"
-                              sizes="(max-width: 400px) 100vw, 400px" id="imageresource">            </a>
-                              <!--a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop">Detalle</a-->
-                            </div>
-                           <div class="theme-card__footer" id="demo">
-                              <div class="theme-card__footer__item">
-                                 <a class="theme-card__title mr-1" href="#">Playeras para Hombre</a>
-                                 <p class="theme-card__info">
-                                 </p>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Precio</a></li>
-                                    <li class="rating_text">
-                                      <p class="theme-card__price">
-                                        <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>200.00</span>MXN
-                                      </p>
-                                    </li>
-                                 </ul>
-
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Colores</a></li>
-                                    <li class="">
-                                        <span class="rating_negro"></span>
-                                        <span class="rating_blanco"></span>
-                                        <span class="rating_azul"></span>
-                                        <span class="rating_gris"></span>
-                                    </li>
-                                 </ul>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Tallas</a></li>
-                                    <li class="rating_text">CH-M-G-XG</li>
-                                 </ul>
-                                 <p></p>
-                              </div>
-                           </div>
-                        </div>
-                     </li>
-                     <li class="col-md-4">
-                        <div class="theme-card">
-                           <div class="theme-card__body">
-                              <a class="d-block" id="pop1">
-                              <img width="400" height="300" src="./sources/images/mujeres/m_gato_ojon.jpg"
-                              class="theme-card__img wp-post-image" alt=""
-                              srcset="./sources/images/mujeres/m_gato_ojon.jpg 400w,
-                              ./sources/images/mujeres/m_gato_ojon.jpg 300w,
-                              ./sources/images/mujeres/m_gato_ojon.jpg 768w,
-                              ./sources/images/mujeres/m_gato_ojon.jpg 1024w,
-                              ./sources/images/mujeres/m_gato_ojon.jpg 200w,
-                              ./sources/images/mujeres/m_gato_ojon.jpg 600w,
-                              ./sources/images/mujeres/m_gato_ojon.jpg 1200w,
-                              ./sources/images/mujeres/m_gato_ojon.jpg 1440w"
-                              sizes="(max-width: 400px) 100vw, 400px" id="imageresource1">            </a>
-                              <!--a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop1">Detalle</a-->
-                    </div>
-                           <div class="theme-card__footer" id="demo1">
-                              <div class="theme-card__footer__item">
-                                 <a class="theme-card__title mr-1" href="#">Playeras para Mujer</a>
-                                 <p class="theme-card__info">
-                                 </p>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Precio</a></li>
-                                    <li class="rating_text">
-                                      <p class="theme-card__price">
-                                        <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>200.00</span>MXN
-                                      </p>
-                                    </li>
-                                 </ul>
-
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Colores</a></li>
-                                    <li class="">
-                                      <span class="rating_blanco"></span>
-                                      <span class="rating_negro"></span>
-                                      <span class="rating_azul"></span>
-                                      <span class="rating_gris"></span>
-                                      <span class="rating_rosa"></span>
-                                      <span class="rating_coral"></span>
-                                    </li>
-                                 </ul>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Tallas</a></li>
-                                    <li class="rating_text">CH-M-G-XG</li>
-                                 </ul>
-                           </div>
-                        </div>
-                     </li>
-                     <li class="col-md-4">
-                        <div class="theme-card">
-                           <div class="theme-card__body">
-                              <a class="d-block" id="pop2">
-                              <img width="400" height="300" src="./sources/images/mandilones/mand_monos_corazon.jpg"
-                              class="theme-card__img wp-post-image" alt=""
-                              srcset="./sources/images/mandilones/mand_monos_corazon.jpg 400w,
-                              ./sources/images/mandilones/mand_monos_corazon.jpg 300w,
-                              ./sources/images/mandilones/mand_monos_corazon.jpg 768w,
-                              ./sources/images/mandilones/mand_monos_corazon.jpg 1024w,
-                              ./sources/images/mandilones/mand_monos_corazon.jpg 200w,
-                              ./sources/images/mandilones/mand_monos_corazon.jpg 600w,
-                              ./sources/images/mandilones/mand_monos_corazon.jpg 1200w,
-                              ./sources/images/mandilones/mand_monos_corazon.jpg 1440w"
-                              sizes="(max-width: 400px) 100vw, 400px" id="imageresource2">            </a>
-                              <!--a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop2">Detalle</a-->
-                         </div>
-                           <div class="theme-card__footer" id="demo2">
-                              <div class="theme-card__footer__item">
-                                 <a class="theme-card__title mr-1" href="#">Playeras para Parejas</a>
-                                 <p class="theme-card__info">
-                                 </p>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Precio</a></li>
-                                    <li class="rating_text">
-                                      <p class="theme-card__price">
-                                        <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>350.00</span>MXN
-                                      </p>
-                                    </li>
-                                 </ul>
-
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Colores</a></li>
-                                    <li class="">
-                                      <span class="rating_blanco"></span>
-                                      <span class="rating_negro"></span>
-                                      <span class="rating_gris"></span>
-                                    </li>
-                                 </ul>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Tallas</a></li>
-                                    <li class="rating_text">CH-M-G-XG</li>
-                                 </ul>
-                           </div>
-                        </div>
-                     </li>
-                  </ul>
-               </div>
-               <div class="theme-cards-holder" id="hombres_dat">
-                  <div class="theme-cards__heading">
-                     <div>
-                        <h5 class="theme-cards__title">Hombres</h5>
-                        <p class="text-gray-soft">Modelos de playeras para hombres.</p>
-                     </div>
-                  </div>
-                  <ul class="row">
-                     <li class="col-md-4">
-                        <div class="theme-card">
-                           <div class="theme-card__body">
-                              <a class="d-block" id="pop3">
-                              <img width="400" height="300"
-                              src="./sources/images/hombres/h_game_over.jpg"
-                              class="theme-card__img wp-post-image" alt=""
-                              srcset="./sources/images/hombres/h_game_over.jpg 400w,
-                              ./sources/images/hombres/h_game_over.jpg 800w,
-                              ./sources/images/hombres/h_game_over.jpg 768w,
-                              ./sources/images/hombres/h_game_over.jpg 200w,
-                              ./sources/images/hombres/h_game_over.jpg 600w,
-                              ./sources/images/hombres/h_game_over.jpg 1200w"
-                              sizes="(max-width: 400px) 100vw, 400px" id="imageresource3">            </a>
-                              <!--a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop3">Detalle</a-->
-                             </div>
-                           <div class="theme-card__footer" id="demo3">
-                              <div class="theme-card__footer__item">
-                                 <a class="theme-card__title mr-1" href="#">Playera Game Over</a>
-                                 <p class="theme-card__info">
-                                 </p>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Precio</a></li>
-                                    <li class="rating_text">
-                                      <p class="theme-card__price">
-                                        <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>170.00</span>MXN
-                                      </p>
-                                    </li>
-                                 </ul>
-
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Colores</a></li>
-                                    <li class="">
-                                      <span class="rating_blanco"></span>
-                                      <span class="rating_cielo"></span>
-                                      <span class="rating_gris"></span>
-                                    </li>
-                                 </ul>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Tallas</a></li>
-                                    <li class="rating_text">CH-M-G-XG</li>
-                                 </ul>
-                           </div>
-                        </div>
-                     </li>
-                     <li class="col-md-4">
-                        <div class="theme-card">
-                           <div class="theme-card__body">
-                              <a class="d-block" id="pop4">
-                              <img width="400" height="300"
-                              src="./sources/images/hombres/h_meme.jpg"
-                              class="theme-card__img wp-post-image" alt=""
-                              srcset="./sources/images/hombres/h_meme.jpg 400w,
-                              ./sources/images/hombres/h_meme.jpg 800w,
-                              ./sources/images/hombres/h_meme.jpg 768w,
-                              ./sources/images/hombres/h_meme.jpg 1200w,
-                              ./sources/images/hombres/h_meme.jpg 200w,
-                              ./sources/images/hombres/h_meme.jpg 600w,
-                              ./sources/images/hombres/h_meme.jpg 1366w"
-                              sizes="(max-width: 400px) 100vw, 400px" id="imageresource4">            </a>
-                              <!--a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop4">Detalle</a-->
-                           </div>
-                           <div class="theme-card__footer" id="demo4">
-                              <div class="theme-card__footer__item">
-                                 <a class="theme-card__title mr-1" href="#">Playeras con Meme</a>
-                                 <p class="theme-card__info">
-                                 </p>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Precio</a></li>
-                                    <li class="rating_text">
-                                      <p class="theme-card__price">
-                                        <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>150.00</span>MXN
-                                      </p>
-                                    </li>
-                                 </ul>
-
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Colores</a></li>
-                                    <li class="">
-                                      <span class="rating_azul"></span>
-                                      <span class="rating_gris"></span>
-                                      <span class="rating_negro"></span>
-                                      <span class="rating_blanco"></span>
-                                    </li>
-                                 </ul>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Tallas</a></li>
-                                    <li class="rating_text">CH-M-G-XG</li>
-                                 </ul>
-                           </div>
-                        </div>
-                     </li>
-                     <li class="col-md-4">
-                        <div class="theme-card">
-                           <div class="theme-card__body">
-                              <a class="d-block" id="pop5">
-                              <img width="400" height="300"
-                              src="./sources/images/hombres/h_carita.jpg"
-                               class="theme-card__img wp-post-image" alt=""
-                               srcset="./sources/images/hombres/h_carita.jpg 400w,
-                               ./sources/images/hombres/h_carita.jpg 800w,
-                               ./sources/images/hombres/h_carita.jpg 768w,
-                               ./sources/images/hombres/h_carita.jpg 200w,
-                               ./sources/images/hombres/h_carita.jpg 600w,
-                               ./sources/images/hombres/h_carita.jpg 1200w"
-                               sizes="(max-width: 400px) 100vw, 400px" id="imageresource5">            </a>
-                               <!--a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop5">Detalle</a-->
-                           </div>
-                           <div class="theme-card__footer" id="demo5">
-                              <div class="theme-card__footer__item">
-                                 <a class="theme-card__title mr-1" href="#">Playeras de Carita</a>
-                                 <p class="theme-card__info">
-                                 </p>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Precio</a></li>
-                                    <li class="rating_text">
-                                      <p class="theme-card__price">
-                                        <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>150.00</span>MXN
-                                      </p>
-                                    </li>
-                                 </ul>
-
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Colores</a></li>
-                                    <li class="">
-                                      <span class="rating_gris"></span>
-                                      <span class="rating_negro"></span>
-                                    </li>
-                                 </ul>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Tallas</a></li>
-                                    <li class="rating_text">CH-M-G-XG</li>
-                                 </ul>
-                           </div>
-                        </div>
-                     </li>
-                     <li class="col-md-4">
-                        <div class="theme-card">
-                           <div class="theme-card__body">
-                              <a class="d-block" id="pop6">
-                              <img width="400" height="300"
-                              src="./sources/images/hombres/h_mono.jpg"
-                               class="theme-card__img wp-post-image" alt=""
-                               srcset="./sources/images/hombres/h_mono.jpg 400w,
-                               ./sources/images/hombres/h_mono.jpg 800w,
-                               ./sources/images/hombres/h_mono.jpg 768w,
-                               ./sources/images/hombres/h_mono.jpg 200w,
-                               ./sources/images/hombres/h_mono.jpg 600w,
-                               ./sources/images/hombres/h_mono.jpg 1200w"
-                               sizes="(max-width: 400px) 100vw, 400px" id="imageresource6">            </a>
-                               <!--a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop6">Detalle</a-->
-                           </div>
-                           <div class="theme-card__footer" id="demo6">
-                              <div class="theme-card__footer__item">
-                                 <a class="theme-card__title mr-1" href="#">Playeras de Manos cuzadas</a>
-                                 <p class="theme-card__info">
-                                 </p>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Precio</a></li>
-                                    <li class="rating_text">
-                                      <p class="theme-card__price">
-                                        <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>170.00</span>MXN
-                                      </p>
-                                    </li>
-                                 </ul>
-
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Colores</a></li>
-                                    <li class="">
-                                      <span class="rating_azul"></span>
-                                      <span class="rating_gris"></span>
-                                      <span class="rating_negro"></span>
-                                      <span class="rating_blanco"></span>
-                                    </li>
-                                 </ul>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Tallas</a></li>
-                                    <li class="rating_text">CH-M-G-XG</li>
-                                 </ul>
-                           </div>
-                        </div>
-                     </li>
-
-                  </ul>
-               </div>
-               <div class="theme-cards-holder" id="mujeres_dat">
-                  <div class="theme-cards__heading">
-                     <div>
-                       <h5 class="theme-cards__title">Mujeres</h5>
-                       <p class="text-gray-soft">Modelos de playeras para Mujeres.</p>
-                     </div>
-                  </div>
-                  <ul class="row">
-                     <li class="col-md-4">
-                        <div class="theme-card">
-                           <div class="theme-card__body">
-                              <a class="d-block" id="pop7">
-                              <img width="600" height="450"
-                              src="./sources/images/mujeres/m_game_over.jpg"
-                              class="theme-card__img wp-post-image" alt=""
-                              srcset="./sources/images/mujeres/m_game_over.jpg 600w,
-                              ./sources/images/mujeres/m_game_over.jpg 800w,
-                              ./sources/images/mujeres/m_game_over.jpg 768w,
-                              ./sources/images/mujeres/m_game_over.jpg 200w,
-                              ./sources/images/mujeres/m_game_over.jpg 400w,
-                              ./sources/images/mujeres/m_game_over.jpg 1200w"
-                              sizes="(max-width: 600px) 100vw, 600px" id="imageresource7">            </a>
-                              <!--a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop7">Detalle</a-->
-                           </div>
-                           <div class="theme-card__footer" id="demo7">
-                              <div class="theme-card__footer__item">
-                                 <a class="theme-card__title mr-1" href="#">Playeras Game Over</a>
-                                 <p class="theme-card__info">
-                                 </p>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Precio</a></li>
-                                    <li class="rating_text">
-                                      <p class="theme-card__price">
-                                        <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>170.00</span>MXN
-                                      </p>
-                                    </li>
-                                 </ul>
-
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Colores</a></li>
-                                    <li class="">
-                                      <span class="rating_negro"></span>
-                                      <span class="rating_azul"></span>
-                                      <span class="rating_blanco"></span>
-                                    </li>
-                                 </ul>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Tallas</a></li>
-                                    <li class="rating_text">CH-M-G-XG</li>
-                                 </ul>
-                           </div>
-                        </div>
-                     </li>
-                     <li class="col-md-4">
-                        <div class="theme-card">
-                           <div class="theme-card__body">
-                              <a class="d-block" id="pop8">
-                              <img width="600" height="450"
-                              src="./sources/images/mujeres/m_carita.jpg"
-                              class="theme-card__img wp-post-image" alt=""
-                              srcset="./sources/images/mujeres/m_carita.jpg 600w,
-                              ./sources/images/mujeres/m_carita.jpg 800w,
-                              ./sources/images/mujeres/m_carita.jpg 768w,
-                              ./sources/images/mujeres/m_carita.jpg 200w,
-                              ./sources/images/mujeres/m_carita.jpg 400w,
-                              ./sources/images/mujeres/m_carita.jpg 1200w"
-                              sizes="(max-width: 600px) 100vw, 600px" id="imageresource8">            </a>
-                              <!--a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop8">Detalle</a-->
-                           </div>
-                           <div class="theme-card__footer" id="demo8">
-                              <div class="theme-card__footer__item">
-                                 <a class="theme-card__title mr-1" href="#">Playeras con Carita</a>
-                                 <p class="theme-card__info">
-                                 </p>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Precio</a></li>
-                                    <li class="rating_text">
-                                      <p class="theme-card__price">
-                                        <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>150.00</span>MXN
-                                      </p>
-                                    </li>
-                                 </ul>
-
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Colores</a></li>
-                                    <li class="">
-                                      <span class="rating_negro"></span>
-                                      <span class="rating_rosa"></span>
-                                      <span class="rating_coral"></span>
-                                      <span class="rating_blanco"></span>
-                                    </li>
-                                 </ul>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Tallas</a></li>
-                                    <li class="rating_text">CH-M-G-XG</li>
-                                 </ul>
-                           </div>
-                        </div>
-                     </li>
-
-                     <li class="col-md-4">
-                        <div class="theme-card">
-                           <div class="theme-card__body">
-                              <a class="d-block" id="pop9">
-                              <img width="400" height="300"
-                              src="./sources/images/mujeres/m_arbol.jpg" class="theme-card__img wp-post-image" alt=""
-							  srcset="./sources/images/mujeres/m_arbol.jpg 400w,
-							  ./sources/images/mujeres/m_arbol.jpg 800w,
-							  ./sources/images/mujeres/m_arbol.jpg 768w,
-							  ./sources/images/mujeres/m_arbol.jpg 200w,
-							  ./sources/images/mujeres/m_arbol.jpg 600w,
-							  ./sources/images/mujeres/m_arbol.jpg 1200w" sizes="(max-width: 400px) 100vw, 400px" id="imageresource9">            </a>
-                <!--a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop9">Detalle</a-->
-                           </div>
-                           <div class="theme-card__footer" id="demo9">
-                              <div class="theme-card__footer__item">
-                                 <a class="theme-card__title mr-1" href="#">Playeras con Arbol</a>
-                                 <p class="theme-card__info">
-                                 </p>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Precio</a></li>
-                                    <li class="rating_text">
-                                      <p class="theme-card__price">
-                                        <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>170.00</span>MXN
-                                      </p>
-                                    </li>
-                                 </ul>
-
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Colores</a></li>
-                                    <li class="">
-                                      <span class="rating_blanco"></span>
-                                      <span class="rating_menta"></span>
-                                      <span class="rating_rosa"></span>
-                                      <span class="rating_negro"></span>
-                                      <span class="rating_cielo"></span>
-                                    </li>
-                                 </ul>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Tallas</a></li>
-                                    <li class="rating_text">CH-M-G-XG</li>
-                                 </ul>
-                           </div>
-                        </div>
-                     </li>
-                     <li class="col-md-4">
-                        <div class="theme-card">
-                           <div class="theme-card__body">
-                              <a class="d-block" id="pop10">
-                              <img width="400" height="300" src="./sources/images/mujeres/m_buho_rama.jpg"
-                              class="theme-card__img wp-post-image" alt=""
-							  srcset="./sources/images/mujeres/m_buho_rama.jpg 400w,
-							  ./sources/images/mujeres/m_buho_rama.jpg 800w,
-							  ./sources/images/mujeres/m_buho_rama.jpg 768w,
-							  ./sources/images/mujeres/m_buho_rama.jpg 200w,
-							  ./sources/images/mujeres/m_buho_rama.jpg 600w,
-							  ./sources/images/mujeres/m_buho_rama.jpg 1200w" sizes="(max-width: 400px) 100vw, 400px" id="imageresource10">            </a>
-                <!--a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop10">Detalle</a-->
-                           </div>
-                           <div class="theme-card__footer" id="demo10">
-                              <div class="theme-card__footer__item">
-                                 <a class="theme-card__title mr-1" href="#">Playeras con Buho</a>
-                                 <p class="theme-card__info">
-                                 </p>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Precio</a></li>
-                                    <li class="rating_text">
-                                      <p class="theme-card__price">
-                                        <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>200.00</span>MXN
-                                      </p>
-                                    </li>
-                                 </ul>
-
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Colores</a></li>
-                                    <li class="">
-                                      <span class="rating_blanco"></span>
-                                      <span class="rating_menta"></span>
-                                      <span class="rating_rosa"></span>
-                                      <span class="rating_coral"></span>
-                                      <span class="rating_cielo"></span>
-                                    </li>
-                                 </ul>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Tallas</a></li>
-                                    <li class="rating_text">CH-M-G-XG</li>
-                                 </ul>
-                           </div>
-                        </div>
-                     </li>
-                     <li class="col-md-4">
-                        <div class="theme-card">
-                           <div class="theme-card__body">
-                              <a class="d-block" id="pop11">
-                              <img width="400" height="300" src="./sources/images/mujeres/m_manos_cruz.jpg"
-                              class="theme-card__img wp-post-image" alt=""
-               srcset="./sources/images/mujeres/m_manos_cruz.jpg 400w,
-               ./sources/images/mujeres/m_manos_cruz.jpg 800w,
-               ./sources/images/mujeres/m_manos_cruz.jpg 768w,
-               ./sources/images/mujeres/m_manos_cruz.jpg 200w,
-               ./sources/images/mujeres/m_manos_cruz.jpg 600w,
-               ./sources/images/mujeres/m_manos_cruz.jpg 1200w" sizes="(max-width: 400px) 100vw, 400px" id="imageresource11">            </a>
-               <!--a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop11">Detalle</a-->
-                           </div>
-                           <div class="theme-card__footer"  id="demo11">
-                              <div class="theme-card__footer__item">
-                                 <a class="theme-card__title mr-1" href="#">Playeras Manos Cruzadas</a>
-                                 <p class="theme-card__info">
-                                 </p>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Precio</a></li>
-                                    <li class="rating_text">
-                                      <p class="theme-card__price">
-                                        <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>170.00</span>MXN
-                                      </p>
-                                    </li>
-                                 </ul>
-
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Colores</a></li>
-                                    <li class="">
-                                      <span class="rating_negro"></span>
-                                      <span class="rating_azul"></span>
-                                      <span class="rating_blanco"></span>
-                                    </li>
-                                 </ul>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Tallas</a></li>
-                                    <li class="rating_text">CH-M-G-XG</li>
-                                 </ul>
-                           </div>
-                        </div>
-                     </li>
-                  </ul>
-                  <!-- Removed for now because we're listing all the themes directly on the homepage -->
-                  <!-- <a class="btn btn-brand btn-block d-md-none mb-4" href="https://themes.getbootstrap.com/shop/?orderby=popularity">View all popular themes</a> -->
-               </div>
-               <div class="theme-cards-holder" id="mandilones_dat">
-                  <div class="theme-cards__heading">
-                     <div>
-                       <h5 class="theme-cards__title">Parejas</h5>
-                       <p class="text-gray-soft">Modelos de playeras para Parejas.</p>
-                     </div>
-                  </div>
-                  <ul class="row">
-                     <li class="col-md-4">
-                        <div class="theme-card">
-                           <div class="theme-card__body">
-                              <a class="d-block" id="pop12">
-                              <img width="600" height="450"
-                              src="./sources/images/mandilones/mand_monos_corazon.jpg"
-                              class="theme-card__img wp-post-image" alt=""
-                              srcset="./sources/images/mandilones/mand_monos_corazon.jpg 600w,
-                              ./sources/images/mandilones/mand_monos_corazon.jpg 800w,
-                              ./sources/images/mandilones/mand_monos_corazon.jpg 768w,
-                              ./sources/images/mandilones/mand_monos_corazon.jpg 200w,
-                              ./sources/images/mandilones/mand_monos_corazon.jpg 400w,
-                              ./sources/images/mandilones/mand_monos_corazon.jpg 1200w"
-                              sizes="(max-width: 600px) 100vw, 600px" id="imageresource12">            </a>
-                              <!--a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop12">Detalle</a-->
-                           </div>
-                           <div class="theme-card__footer"  id="demo12">
-                              <div class="theme-card__footer__item">
-                                 <a class="theme-card__title mr-1" href="#">Playeras con Corazones</a>
-                                 <p class="theme-card__info">
-                                 </p>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Precio</a></li>
-                                    <li class="rating_text">
-                                      <p class="theme-card__price">
-                                        <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>350.00</span>MXN
-                                      </p>
-                                    </li>
-                                 </ul>
-
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Colores</a></li>
-                                    <li class="">
-                                      <span class="rating_blanco"></span>
-                                      <span class="rating_negro"></span>
-                                      <span class="rating_gris"></span>
-                                    </li>
-                                 </ul>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Tallas</a></li>
-                                    <li class="rating_text">CH-M-G-XG</li>
-                                 </ul>
-                           </div>
-                        </div>
-                     </li>
-                     <li class="col-md-4">
-                        <div class="theme-card">
-                           <div class="theme-card__body">
-                              <a class="d-block" id="pop13">
-                              <img width="600" height="450"
-                              src="./sources/images/mandilones/mand_monos_audif.jpg"
-                              class="theme-card__img wp-post-image" alt=""
-                              srcset="./sources/images/mandilones/mand_monos_audif.jpg 600w,
-                              ./sources/images/mandilones/mand_monos_audif.jpg 800w,
-                              ./sources/images/mandilones/mand_monos_audif.jpg 768w,
-                              ./sources/images/mandilones/mand_monos_audif.jpg 200w,
-                              ./sources/images/mandilones/mand_monos_audif.jpg 400w,
-                              ./sources/images/mandilones/mand_monos_audif.jpg 1200w"
-                              sizes="(max-width: 600px) 100vw, 600px" id="imageresource13">            </a>
-                              <!--a class="theme-card__body__overlay btn btn-brand btn-sm" id="pop13">Detalle</a-->
-                           </div>
-                           <div class="theme-card__footer"  id="demo13">
-                              <div class="theme-card__footer__item">
-                                 <a class="theme-card__title mr-1" href="#">Playeras con Audifonos</a>
-                                 <p class="theme-card__info">
-                                 </p>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Precio</a></li>
-                                    <li class="rating_text">
-                                      <p class="theme-card__price">
-                                        <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>350.00</span>MXN
-                                      </p>
-                                    </li>
-                                 </ul>
-
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Colores</a></li>
-                                    <li class="">
-                                      <span class="rating_blanco"></span>
-                                      <span class="rating_menta"></span>
-                                      <span class="rating_cielo"></span>
-                                      <span class="rating_gris"></span>
-                                    </li>
-                                 </ul>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Tallas</a></li>
-                                    <li class="rating_text">CH-M-G-XG</li>
-                                 </ul>
-                           </div>
-                        </div>
-                     </li>
-                  </ul>
-                  <!-- Removed for now because we're listing all the themes directly on the homepage -->
-                  <!-- <a class="btn btn-brand btn-block d-md-none mb-4" href="https://themes.getbootstrap.com/shop/?orderby=popularity">View all popular themes</a> -->
-               </div>
-               <div class="theme-cards-holder" id="proximamente_dat">
-                  <div class="theme-cards__heading">
-                     <div>
-                       <h5 class="theme-cards__title">Proximamente ...</h5>
-                       <p class="text-gray-soft">Proximamente estaremos subiendo los nuevos modelos para Playeras.</p>
-                     </div>
-                  </div>
-                  <ul class="row">
-                     <li class="col-md-2">
-                        <div class="theme-card">
-                           <div class="theme-card__body">
-                             Gamers ...
-                            </div>
-                           <div class="theme-card__footer">
-                              <div class="theme-card__footer__item">
-                                 <a class="theme-card__title mr-1" href="#">Gamers</a>
-                                 <p class="theme-card__info">
-                                 </p>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Precio</a></li>
-                                    <li class="rating_text">
-                                      <p class="theme-card__price">
-                                        <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>0.00</span>MXN
-                                      </p>
-                                    </li>
-                                 </ul>
-
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Colores</a></li>
-                                    <li class="">
-                                        <span class="rating__item rating_red"></span>
-                                    </li>
-                                 </ul>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Tallas</a></li>
-                                    <li class="rating_text">X</li>
-                                 </ul>
-                           </div>
-                        </div>
-                        </div>
-                     </li>
-                     <li class="col-md-2">
-                        <div class="theme-card">
-                           <div class="theme-card__body">
-                             Programers ...
-                            </div>
-                           <div class="theme-card__footer">
-                              <div class="theme-card__footer__item">
-                                 <a class="theme-card__title mr-1" href="#">Programers</a>
-                                 <p class="theme-card__info">
-                                 </p>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Precio</a></li>
-                                    <li class="rating_text">
-                                      <p class="theme-card__price">
-                                        <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>0.00</span>MXN
-                                      </p>
-                                    </li>
-                                 </ul>
-
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Colores</a></li>
-                                    <li class="">
-                                        <span class="rating__item rating_red"></span>
-                                    </li>
-                                 </ul>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Tallas</a></li>
-                                    <li class="rating_text">X</li>
-                                 </ul>
-                           </div>
-                        </div>
-                        </div>
-                     </li>
-                     <li class="col-md-2">
-                        <div class="theme-card">
-                           <div class="theme-card__body">
-                             Super heroes ...
-                            </div>
-                           <div class="theme-card__footer">
-                              <div class="theme-card__footer__item">
-                                 <a class="theme-card__title mr-1" href="#">Super heroes</a>
-                                 <p class="theme-card__info">
-                                 </p>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Precio</a></li>
-                                    <li class="rating_text">
-                                      <p class="theme-card__price">
-                                        <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>0.00</span>MXN
-                                      </p>
-                                    </li>
-                                 </ul>
-
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Colores</a></li>
-                                    <li class="">
-                                        <span class="rating__item rating_red"></span>
-                                    </li>
-                                 </ul>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Tallas</a></li>
-                                    <li class="rating_text">X</li>
-                                 </ul>
-                           </div>
-                        </div>
-                        </div>
-                     </li>
-                     <li class="col-md-2">
-                        <div class="theme-card">
-                           <div class="theme-card__body">
-                             DJ`s ...
-                            </div>
-                           <div class="theme-card__footer">
-                              <div class="theme-card__footer__item">
-                                 <a class="theme-card__title mr-1" href="#">DJ`s</a>
-                                 <p class="theme-card__info">
-                                 </p>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Precio</a></li>
-                                    <li class="rating_text">
-                                      <p class="theme-card__price">
-                                        <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>0.00</span>MXN
-                                      </p>
-                                    </li>
-                                 </ul>
-
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Colores</a></li>
-                                    <li class="">
-                                        <span class="rating__item rating_red"></span>
-                                    </li>
-                                 </ul>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Tallas</a></li>
-                                    <li class="rating_text">X</li>
-                                 </ul>
-                           </div>
-                        </div>
-                        </div>
-                     </li>
-                     <li class="col-md-2">
-                        <div class="theme-card">
-                           <div class="theme-card__body">
-                             Mas memes ...
-                            </div>
-                           <div class="theme-card__footer">
-                              <div class="theme-card__footer__item">
-                                 <a class="theme-card__title mr-1" href="#">Mas memes</a>
-                                 <p class="theme-card__info">
-                                 </p>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Precio</a></li>
-                                    <li class="rating_text">
-                                      <p class="theme-card__price">
-                                        <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>0.00</span>MXN
-                                      </p>
-                                    </li>
-                                 </ul>
-
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Colores</a></li>
-                                    <li class="">
-                                        <span class="rating__item rating_red"></span>
-                                    </li>
-                                 </ul>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Tallas</a></li>
-                                    <li class="rating_text">X</li>
-                                 </ul>
-                           </div>
-                        </div>
-                        </div>
-                     </li>
-                     <li class="col-md-2">
-                        <div class="theme-card">
-                           <div class="theme-card__body">
-                             Y Mas ...
-                            </div>
-                           <div class="theme-card__footer">
-                              <div class="theme-card__footer__item">
-                                 <a class="theme-card__title mr-1" href="#">Y mas</a>
-                                 <p class="theme-card__info">
-                                 </p>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Precio</a></li>
-                                    <li class="rating_text">
-                                      <p class="theme-card__price">
-                                        <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>0.00</span>MXN
-                                      </p>
-                                    </li>
-                                 </ul>
-
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Colores</a></li>
-                                    <li class="">
-                                        <span class="rating__item rating_red"></span>
-                                    </li>
-                                 </ul>
-                                 <ul class="prod_cats_list">
-                                    <li><a class="theme-card__title mr-1" href="#">Tallas</a></li>
-                                    <li class="rating_text">X</li>
-                                 </ul>
-                           </div>
-                        </div>
-                        </div>
-                     </li>
-                  </ul>
-                  <!-- Removed for now because we're listing all the themes directly on the homepage -->
-                  <!-- <a class="btn btn-brand btn-block d-md-none mb-4" href="https://themes.getbootstrap.com/shop/?orderby=popularity">View all popular themes</a> -->
-               </div>
+              <div class="carousel-caption">
+                <!--h1>Another example headline.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p-->
+                <p>
+                  <!--a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a-->
+                </p>
+              </div>
             </div>
-         </section>
-      </main>
-      <!-- #main .site-main -->
-      <footer class="footer">
-         <div class="container">
-            <div class="footer__inner">
-               <div class="footer__item">
-                  <form id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
-                     <div class="d-md-flex justify-content-between align-items-center">
-                        <div class="form-group">
-                           <h5 class="mb-1">Envianos tus comentarios al correo <a href="#" class="fa fa-google" style="font-size:48px;color:#dd4b39"></a> playeraslios@gmail.com.</h5>
-                           <div class="form-text mt-0">Solo comentarios y sujerencias acerca de las playeras, si es spam se eliminaran.</div>
-                        </div>
-                        <div id="signup_footer" class="d-flex align-items-start">
-                          Siguenos en :
-                          <a href="https://www.facebook.com/liz.lios.7" class="fa fa-facebook-square" style="font-size:48px;color:#3B5998"></a>
+          </div>
+          <div class="carousel-item">
+          <img class="d-block img-fluid" src="./resources/images/slider/h_carita.jpg" srcset="./resources/images/slider/h_carita.jpg 1x,
+            ./resources/images/slider/h_carita.jpg 2x"/>
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <!--h1>One more for good measure.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p-->
+                <p>
+                  <!--a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a-->
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+          <img class="d-block img-fluid" src="./resources/images/slider/h_mono_blanco.jpg" srcset="./resources/images/slider/h_mono_blanco.jpg 1x,
+            ./resources/images/slider/h_mono_blanco.jpg 2x"/>
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <!--h1>One more for good measure.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p-->
+                <p>
+                  <!--a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a-->
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+          <img class="d-block img-fluid" src="./resources/images/slider/m_gato_ojon_naranja.jpg" srcset="./resources/images/slider/m_gato_ojon_naranja.jpg 1x,
+            ./resources/images/slider/m_gato_ojon_naranja.jpg 2x"/>
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <!--h1>One more for good measure.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p-->
+                <p>
+                  <!--a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a-->
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+          <img class="d-block img-fluid" src="./resources/images/slider/m_carita_blanca.jpg" srcset="./resources/images/slider/m_carita_blanca.jpg 1x,
+            ./resources/images/slider/m_carita_blanca.jpg 2x"/>
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <!--h1>One more for good measure.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p-->
+                <p>
+                  <!--a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a-->
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+          <img class="d-block img-fluid" src="./resources/images/slider/m_buho_rama.jpg" srcset="./resources/images/slider/m_buho_rama.jpg 1x,
+            ./resources/images/slider/m_buho_rama.jpg 2x"/>
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <!--h1>One more for good measure.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p-->
+                <p>
+                  <!--a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a-->
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+          <img class="d-block img-fluid" src="./resources/images/slider/m_arbol.jpg" srcset="./resources/images/slider/m_arbol.jpg 1x,
+            ./resources/images/slider/m_arbol.jpg 2x"/>
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <!--h1>One more for good measure.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p-->
+                <p>
+                  <!--a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a-->
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+          <img class="d-block img-fluid" src="./resources/images/slider/mand_monos_corazon.jpg" srcset="./resources/images/slider/mand_monos_corazon.jpg 1x,
+            ./resources/images/slider/mand_monos_corazon.jpg 2x"/>
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <!--h1>One more for good measure.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p-->
+                <p>
+                  <!--a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a-->
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+          <img class="d-block img-fluid" src="./resources/images/slider/mand_monos_audif.jpg" srcset="./resources/images/slider/mand_monos_audif.jpg 1x,
+            ./resources/images/slider/mand_monos_audif.jpg 2x"/>
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <!--h1>One more for good measure.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p-->
+                <p>
+                  <!--a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a-->
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+</main>
+
+<!--header class="">
+  <div class="bs-docs-header" id="content" tabindex="-1">
+    <div class="container" align="center">
+      <h1 class="bd-title mt-0">LiOs.</h1>
+      <p class="bd-lead">Encuentra playeras estampadas de moda para Hombre, Mujer o para Parejas.</p>
+    </div>
   </div>
-                     </div>
-                  </form>
-               </div>
-               <div class="footer__item d-lg-flex justify-content-lg-between align-items-lg-center">
-                  <ul id="menu-footer" class="nav sub-nav footer__sub-nav">
-                     <li id="menu-item-1194" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1194"><a title="Help Center" href="contacto.html">Contactanos</a></li>
-                  </ul>
-                  <p class="hidden-sm-down d-none d-lg-block">Pagina creada por: <a href="#">mipagina.com</a></p>
-               </div>
-            </div>
+</header-->
+
+<main id="content" role="main">
+  <main class="bd-content p-5" role="main">
+    <div class="theme-cards-holder">
+      <div class="theme-cards__heading">
+         <div>
+            <h5 class="theme-cards__title">Playeras LiOs.</h5>
+            <p class="text-gray-soft">Encuentra playeras estampadas de moda para Hombre, Mujer o para Parejas.</p>
          </div>
-      </footer>
+      </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-xl-4 mb-4">
+        <div class="card-image-item">
+          <div class="shop-item-body">
+            <!--div class="theme-overlay2">
+              <div class="theme-child text-center">
+                <h5>Playeras personalizadas.</h5>
+              </div>
+            </div>
+            <div class="theme-overlay3">
+              <div class="theme-child text-center">
+                <h5>AGOTADO!!!</h5>
+              </div>
+            </div-->
+            <a class="d-block" id="pop" >
+            <img class="theme-card__img" width="400" height="300" src="./resources/images/hombres/h_call_of_duty.jpg"
+              alt="Playeras para Hombre"
+              srcset="./resources/images/hombres/h_call_of_duty_500.jpg 400w,
+              ./resources/images/hombres/h_call_of_duty.jpg 300w,
+              ./resources/images/hombres/h_call_of_duty.jpg 768w,
+              ./resources/images/hombres/h_call_of_duty.jpg 1024w,
+              ./resources/images/hombres/h_call_of_duty.jpg 200w,
+              ./resources/images/hombres/h_call_of_duty.jpg 600w,
+              ./resources/images/hombres/h_call_of_duty.jpg 1200w,
+              ./resources/images/hombres/h_call_of_duty.jpg 1440w"
+              sizes="(max-width: 400px) 100vw, 400px" id="imageresource"/>
+            </a>
+            <!--a class="theme-overlay1 btn btn-brand btn-sm text-left" target="_blank" href="https://themes.getbootstrap.com/preview/?theme_id=1468">Live preview
+            </a-->
+          </div>
+          <div class="shop-item-footer" id="demo">
+              <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Playeras para Hombre
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Precio
+                  <span class="badge badge-pill">&#36; 200.00MXN</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Colores
+                  <span class="badge badge-pill">
+                        <span class="rating_negro"></span>
+                        <span class="rating_blanco"></span>
+                        <span class="rating_azul"></span>
+                        <span class="rating_gris"></span>
+                  </span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Tallas
+                  <span class="badge badge-pill">CH&#45;M&#45;G&#45;XG</span>
+                </li>
+              </ul>
+          </div>
+          </div>
+        </div>
+
+      <div class="col-sm-6 col-md-4 col-xl-4 mb-4">
+        <div class="card-image-item">
+          <div class="shop-item-body">
+            <!--div class="theme-overlay2">
+              <div class="theme-child text-center">
+                <h5>Playeras personalizadas.</h5>
+              </div>
+            </div>
+            <div class="theme-overlay3">
+              <div class="theme-child text-center">
+                <h5>AGOTADO!!!</h5>
+              </div>
+            </div-->
+          <a class="d-block" id="pop1">
+            <img class="theme-card__img" width="960" height="600" src="./resources/images/mujeres/m_gato_ojon.jpg"
+            alt="Playeras para Mujer"
+            srcset="./resources/images/mujeres/m_gato_ojon.jpg 400w,
+            ./resources/images/mujeres/m_gato_ojon.jpg 300w,
+            ./resources/images/mujeres/m_gato_ojon.jpg 768w,
+            ./resources/images/mujeres/m_gato_ojon.jpg 1024w,
+            ./resources/images/mujeres/m_gato_ojon.jpg 200w,
+            ./resources/images/mujeres/m_gato_ojon.jpg 600w,
+            ./resources/images/mujeres/m_gato_ojon.jpg 1200w,
+            ./resources/images/mujeres/m_gato_ojon.jpg 1440w"
+            sizes="(max-width: 400px) 100vw, 400px" id="imageresource1"/>
+            </a>
+            <!--a class="theme-overlay1 btn btn-brand btn-sm text-left" target="_blank" href="https://themes.getbootstrap.com/preview/?theme_id=1468">Live preview
+            </a-->
+          </div>
+          <div class="shop-item-footer" id="demo1">
+          <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Playeras para Mujer
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Precio
+              <span class="badge badge-pill">&#36; 200.00MXN</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Colores
+              <span class="badge badge-pill">
+                 <span class="rating_blanco"></span>
+                  <span class="rating_negro"></span>
+                  <span class="rating_azul"></span>
+                  <span class="rating_gris"></span>
+                  <span class="rating_rosa"></span>
+                  <span class="rating_coral"></span>
+              </span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Tallas
+              <span class="badge badge-pill">CH&#45;M&#45;G&#45;XG</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-xl-4 mb-4">
+        <div class="card-image-item">
+          <div class="shop-item-body">
+            <!--div class="theme-overlay2">
+              <div class="theme-child text-center">
+                <h5>Playeras personalizadas.</h5>
+              </div>
+            </div>
+            <div class="theme-overlay3">
+              <div class="theme-child text-center">
+                <h5>AGOTADO!!!</h5>
+              </div>
+            </div-->
+          <a class="d-block" id="pop2">
+            <img class="theme-card__img" width="960" height="600" src="./resources/images/mandilones/mand_monos_corazon.jpg"
+            alt="Playeras para Parejas"
+            srcset="./resources/images/mandilones/mand_monos_corazon.jpg 400w,
+            ./resources/images/mandilones/mand_monos_corazon.jpg 300w,
+            ./resources/images/mandilones/mand_monos_corazon.jpg 768w,
+            ./resources/images/mandilones/mand_monos_corazon.jpg 1024w,
+            ./resources/images/mandilones/mand_monos_corazon.jpg 200w,
+            ./resources/images/mandilones/mand_monos_corazon.jpg 600w,
+            ./resources/images/mandilones/mand_monos_corazon.jpg 1200w,
+            ./resources/images/mandilones/mand_monos_corazon.jpg 1440w"
+            sizes="(max-width: 400px) 100vw, 400px" id="imageresource2"/>
+            </a>
+            <!--a class="theme-overlay1 btn btn-brand btn-sm text-left" target="_blank" href="https://themes.getbootstrap.com/preview/?theme_id=1468">   Live preview
+            </a-->
+          </div>
+          <div class="shop-item-footer" id="demo2">
+              <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Playeras para Parejas
+                </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Precio
+              <span class="badge badge-pill">&#36; 350.00MXN</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Colores
+              <span class="badge badge-pill">
+                <span class="rating_blanco"></span>
+                <span class="rating_negro"></span>
+                <span class="rating_gris"></span>
+              </span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Tallas
+              <span class="badge badge-pill">CH&#45;M&#45;G&#45;XG</span>
+            </li>
+          </ul>
+       </div>
+      </div>
+    </div>
+  </div>
+
+     <div class="theme-cards-holder" id="hombres_dat">
+      <div class="theme-cards__heading">
+         <div>
+            <h5 class="theme-cards__title">Hombres</h5>
+            <p class="text-gray-soft">Modelos de playeras para hombres.</p>
+         </div>
+      </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+        <div class="card-image-item">
+          <div class="shop-item-body">
+            <!--div class="theme-overlay2">
+              <div class="theme-child text-center">
+                <h5>Playeras personalizadas.</h5>
+              </div>
+            </div>
+            <div class="theme-overlay3">
+              <div class="theme-child text-center">
+                <h5>AGOTADO!!!</h5>
+              </div>
+            </div-->
+            <a class="d-block" id="pop3" >
+            <img class="theme-card__img" width="400" height="300"
+            src="./resources/images/hombres/h_game_over.jpg"
+            alt="Playera Game Over"
+            srcset="./resources/images/hombres/h_game_over.jpg 400w,
+            ./resources/images/hombres/h_game_over.jpg 800w,
+            ./resources/images/hombres/h_game_over.jpg 768w,
+            ./resources/images/hombres/h_game_over.jpg 200w,
+            ./resources/images/hombres/h_game_over.jpg 600w,
+            ./resources/images/hombres/h_game_over.jpg 1200w"
+            sizes="(max-width: 400px) 100vw, 400px" id="imageresource3"/>
+            </a>
+            <!--a class="theme-overlay1 btn btn-brand btn-sm text-left" target="_blank" href="https://themes.getbootstrap.com/preview/?theme_id=1468">Live preview
+            </a-->
+          </div>
+          <div class="shop-item-footer" id="demo3">
+              <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Playera Game Over
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Precio
+                  <span class="badge badge-pill">&#36; 170.00MXN</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Colores
+                  <span class="badge badge-pill">
+                    <span class="rating_blanco"></span>
+                    <span class="rating_cielo"></span>
+                    <span class="rating_gris"></span>
+                  </span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Tallas
+                  <span class="badge badge-pill">CH&#45;M&#45;G&#45;XG</span>
+                </li>
+              </ul>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+          <div class="card-image-item">
+            <div class="shop-item-body">
+              <!--div class="theme-overlay2">
+                <div class="theme-child text-center">
+                  <h5>Playeras personalizadas.</h5>
+                </div>
+              </div>
+              <div class="theme-overlay3">
+                <div class="theme-child text-center">
+                  <h5>AGOTADO!!!</h5>
+                </div>
+              </div-->
+              <a class="d-block" id="pop4" >
+              <img class="theme-card__img" width="400" height="300"
+              src="./resources/images/hombres/h_meme.jpg"
+              alt="Playeras con Meme"
+              srcset="./resources/images/hombres/h_meme.jpg 400w,
+              ./resources/images/hombres/h_meme.jpg 800w,
+              ./resources/images/hombres/h_meme.jpg 768w,
+              ./resources/images/hombres/h_meme.jpg 1200w,
+              ./resources/images/hombres/h_meme.jpg 200w,
+              ./resources/images/hombres/h_meme.jpg 600w,
+              ./resources/images/hombres/h_meme.jpg 1366w"
+              sizes="(max-width: 400px) 100vw, 400px" id="imageresource4"/>
+              </a>
+              <!--a class="theme-overlay1 btn btn-brand btn-sm text-left" target="_blank" href="https://themes.getbootstrap.com/preview/?theme_id=1468"> Live preview
+              </a-->
+          </div>
+          <div class="shop-item-footer" id="demo4">
+              <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Playeras con Meme
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Precio
+                  <span class="badge badge-pill">&#36; 150.00MXN</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Colores
+                  <span class="badge badge-pill">
+                    <span class="rating_azul"></span>
+                    <span class="rating_gris"></span>
+                    <span class="rating_negro"></span>
+                    <span class="rating_blanco"></span>
+                  </span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Tallas
+                  <span class="badge badge-pill">CH&#45;M&#45;G&#45;XG</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+          <div class="card-image-item">
+            <div class="shop-item-body">
+            <!--div class="theme-overlay2">
+              <div class="theme-child text-center">
+                <h5>Playeras personalizadas.</h5>
+              </div>
+            </div>
+            <div class="theme-overlay3">
+              <div class="theme-child text-center">
+                <h5>AGOTADO!!!</h5>
+              </div>
+            </div-->
+            <a class="d-block" id="pop5" >
+            <img class="theme-card__img" width="400" height="300"
+            src="./resources/images/hombres/h_carita.jpg"
+             alt="Playeras con Carita"
+             srcset="./resources/images/hombres/h_carita.jpg 400w,
+             ./resources/images/hombres/h_carita.jpg 800w,
+             ./resources/images/hombres/h_carita.jpg 768w,
+             ./resources/images/hombres/h_carita.jpg 200w,
+             ./resources/images/hombres/h_carita.jpg 600w,
+             ./resources/images/hombres/h_carita.jpg 1200w"
+             sizes="(max-width: 400px) 100vw, 400px" id="imageresource5"/>
+            </a>
+            <!--a class="theme-overlay1 btn btn-brand btn-sm text-left" target="_blank" href="https://themes.getbootstrap.com/preview/?theme_id=1468">Live preview
+            </a-->
+          </div>
+          <div class="shop-item-footer" id="demo5">
+              <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Playeras de Carita
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Precio
+                  <span class="badge badge-pill">&#36; 150.00MXN</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Colores
+                  <span class="badge badge-pill">
+                    <span class="rating_gris"></span>
+                    <span class="rating_negro"></span>
+                  </span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Tallas
+                  <span class="badge badge-pill">CH&#45;M&#45;G&#45;XG</span>
+                </li>
+              </ul>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+          <div class="card-image-item">
+          <div class="shop-item-body">
+            <!--div class="theme-overlay2">
+              <div class="theme-child text-center">
+                <h5>Playeras personalizadas.</h5>
+              </div>
+            </div>
+            <div class="theme-overlay3">
+              <div class="theme-child text-center">
+                <h5>AGOTADO!!!</h5>
+              </div>
+            </div-->
+            <a class="d-block" id="pop6" >
+            <img class="theme-card__img" width="400" height="300"
+            src="./resources/images/hombres/h_mono.jpg"
+             alt="Playeras con Manos cuzadas"
+             srcset="./resources/images/hombres/h_mono.jpg 400w,
+             ./resources/images/hombres/h_mono.jpg 800w,
+             ./resources/images/hombres/h_mono.jpg 768w,
+             ./resources/images/hombres/h_mono.jpg 200w,
+             ./resources/images/hombres/h_mono.jpg 600w,
+             ./resources/images/hombres/h_mono.jpg 1200w"
+             sizes="(max-width: 400px) 100vw, 400px" id="imageresource6"/>
+            </a>
+            <!--a class="theme-overlay1 btn btn-brand btn-sm text-left" target="_blank" href="https://themes.getbootstrap.com/preview/?theme_id=1468">Live preview
+            </a-->
+          </div>
+          <div class="shop-item-footer" id="demo6">
+              <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Playeras de Manos cuzadas
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Precio
+                  <span class="badge badge-pill">&#36; 170.00MXN</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Colores
+                  <span class="badge badge-pill">
+                    <span class="rating_azul"></span>
+                    <span class="rating_gris"></span>
+                    <span class="rating_negro"></span>
+                    <span class="rating_blanco"></span>
+                  </span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Tallas
+                  <span class="badge badge-pill">CH&#45;M&#45;G&#45;XG</span>
+                </li>
+              </ul>
+          </div>
+          </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="theme-cards-holder" id="mujeres_dat">
+      <div class="theme-cards__heading">
+         <div>
+            <h5 class="theme-cards__title">Mujeres</h5>
+            <p class="text-gray-soft">Modelos de playeras para Mujeres.</p>
+         </div>
+      </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+        <div class="card-image-item">
+          <div class="shop-item-body">
+            <!--div class="theme-overlay2">
+              <div class="theme-child text-center">
+                <h5>Playeras personalizadas.</h5>
+              </div>
+            </div>
+            <div class="theme-overlay3">
+              <div class="theme-child text-center">
+                <h5>AGOTADO!!!</h5>
+              </div>
+            </div-->
+          <a class="d-block" id="pop7" >
+          <img class="theme-card__img" width="600" height="450"
+            src="./resources/images/mujeres/m_game_over.jpg"
+            alt="Playeras Game Over"
+            srcset="./resources/images/mujeres/m_game_over.jpg 600w,
+            ./resources/images/mujeres/m_game_over.jpg 800w,
+            ./resources/images/mujeres/m_game_over.jpg 768w,
+            ./resources/images/mujeres/m_game_over.jpg 200w,
+            ./resources/images/mujeres/m_game_over.jpg 400w,
+            ./resources/images/mujeres/m_game_over.jpg 1200w"
+            sizes="(max-width: 600px) 100vw, 600px" id="imageresource7"/>
+            </a>
+            <!--a class="theme-overlay1 btn btn-brand btn-sm text-left" target="_blank" href="https://themes.getbootstrap.com/preview/?theme_id=1468">Live preview
+            </a-->
+          </div>
+          <div class="shop-item-footer" id="demo7">
+              <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Playeras Game Over
+                </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Precio
+                <span class="badge badge-pill">&#36; 170.00MXN</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Colores
+                <span class="badge badge-pill">
+                  <span class="rating_negro"></span>
+                  <span class="rating_azul"></span>
+                  <span class="rating_blanco"></span>
+                </span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Tallas
+                <span class="badge badge-pill">CH&#45;M&#45;G&#45;XG</span>
+              </li>
+            </ul>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+        <div class="card-image-item">
+          <div class="shop-item-body">
+            <!--div class="theme-overlay2">
+              <div class="theme-child text-center">
+                <h5>Playeras personalizadas.</h5>
+              </div>
+            </div>
+            <div class="theme-overlay3">
+              <div class="theme-child text-center">
+                <h5>AGOTADO!!!</h5>
+              </div>
+            </div-->
+          <a class="d-block" id="pop8" >
+          <img class="theme-card__img" width="600" height="450"
+            src="./resources/images/mujeres/m_carita.jpg"
+            alt="Playeras Carita"
+            srcset="./resources/images/mujeres/m_carita.jpg 600w,
+            ./resources/images/mujeres/m_carita.jpg 800w,
+            ./resources/images/mujeres/m_carita.jpg 768w,
+            ./resources/images/mujeres/m_carita.jpg 200w,
+            ./resources/images/mujeres/m_carita.jpg 400w,
+            ./resources/images/mujeres/m_carita.jpg 1200w"
+            sizes="(max-width: 600px) 100vw, 600px" id="imageresource8"/>
+            </a>
+            <!--a class="theme-overlay1 btn btn-brand btn-sm text-left" target="_blank" href="https://themes.getbootstrap.com/preview/?theme_id=1468">Live preview
+            </a-->
+          </div>
+          <div class="shop-item-footer" id="demo8">
+              <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Playeras con Carita
+                </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Precio
+                <span class="badge badge-pill">&#36; 150.00MXN</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Colores
+                <span class="badge badge-pill">
+                  <span class="rating_negro"></span>
+                  <span class="rating_rosa"></span>
+                  <span class="rating_coral"></span>
+                  <span class="rating_blanco"></span>
+                </span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Tallas
+                <span class="badge badge-pill">CH&#45;M&#45;G&#45;XG</span>
+              </li>
+            </ul>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+        <div class="card-image-item">
+          <div class="shop-item-body">
+            <!--div class="theme-overlay2">
+              <div class="theme-child text-center">
+                <h5>Playeras personalizadas.</h5>
+              </div>
+            </div>
+            <div class="theme-overlay3">
+              <div class="theme-child text-center">
+                <h5>AGOTADO!!!</h5>
+              </div>
+            </div-->
+          <a class="d-block" id="pop9" >
+          <img class="theme-card__img" width="400" height="300"
+            src="./resources/images/mujeres/m_arbol.jpg" alt="Playeras con Arbol"
+            srcset="./resources/images/mujeres/m_arbol.jpg 400w,
+            ./resources/images/mujeres/m_arbol.jpg 800w,
+            ./resources/images/mujeres/m_arbol.jpg 768w,
+            ./resources/images/mujeres/m_arbol.jpg 200w,
+            ./resources/images/mujeres/m_arbol.jpg 600w,
+            ./resources/images/mujeres/m_arbol.jpg 1200w"
+            sizes="(max-width: 400px) 100vw, 400px" id="imageresource9"/>
+            </a>
+            <!--a class="theme-overlay1 btn btn-brand btn-sm text-left" target="_blank" href="https://themes.getbootstrap.com/preview/?theme_id=1468">Live preview
+            </a-->
+          </div>
+          <div class="shop-item-footer" id="demo9">
+              <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Playeras con Arbol
+                </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Precio
+                <span class="badge badge-pill">&#36; 170.00MXN</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Colores
+                <span class="badge badge-pill">
+                  <span class="rating_blanco"></span>
+                  <span class="rating_menta"></span>
+                  <span class="rating_rosa"></span>
+                  <span class="rating_negro"></span>
+                  <span class="rating_cielo"></span>
+                </span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Tallas
+                <span class="badge badge-pill">CH&#45;M&#45;G&#45;XG</span>
+              </li>
+            </ul>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+        <div class="card-image-item">
+          <div class="shop-item-body">
+            <!--div class="theme-overlay2">
+              <div class="theme-child text-center">
+                <h5>Playeras personalizadas.</h5>
+              </div>
+            </div>
+            <div class="theme-overlay3">
+              <div class="theme-child text-center">
+                <h5>AGOTADO!!!</h5>
+              </div>
+            </div-->
+          <a class="d-block" id="pop10" >
+          <img class="theme-card__img" width="400" height="300" src="./resources/images/mujeres/m_buho_rama.jpg"
+            alt="Playeras con Buho"
+            srcset="./resources/images/mujeres/m_buho_rama.jpg 400w,
+            ./resources/images/mujeres/m_buho_rama.jpg 800w,
+            ./resources/images/mujeres/m_buho_rama.jpg 768w,
+            ./resources/images/mujeres/m_buho_rama.jpg 200w,
+            ./resources/images/mujeres/m_buho_rama.jpg 600w,
+            ./resources/images/mujeres/m_buho_rama.jpg 1200w"
+            sizes="(max-width: 400px) 100vw, 400px" id="imageresource10"/>
+            </a>
+            <!--a class="theme-overlay1 btn btn-brand btn-sm text-left" target="_blank" href="https://themes.getbootstrap.com/preview/?theme_id=1468">Live preview
+            </a-->
+          </div>
+          <div class="shop-item-footer" id="demo10">
+              <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Playeras con Buho
+                </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Precio
+                <span class="badge badge-pill">&#36; 200.00MXN</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Colores
+                <span class="badge badge-pill">
+                   <span class="rating_blanco"></span>
+                  <span class="rating_menta"></span>
+                  <span class="rating_rosa"></span>
+                  <span class="rating_coral"></span>
+                  <span class="rating_cielo"></span>
+                </span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Tallas
+                <span class="badge badge-pill">CH&#45;M&#45;G&#45;XG</span>
+              </li>
+            </ul>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+        <div class="card-image-item">
+          <div class="shop-item-body">
+            <!--div class="theme-overlay2">
+              <div class="theme-child text-center">
+                <h5>Playeras personalizadas.</h5>
+              </div>
+            </div>
+            <div class="theme-overlay3">
+              <div class="theme-child text-center">
+                <h5>AGOTADO!!!</h5>
+              </div>
+            </div-->
+          <a class="d-block" id="pop11" >
+          <img class="theme-card__img" width="400" height="300" src="./resources/images/mujeres/m_manos_cruz.jpg"
+            alt="Playeras Manos Cruzadas"
+             srcset="./resources/images/mujeres/m_manos_cruz.jpg 400w,
+             ./resources/images/mujeres/m_manos_cruz.jpg 800w,
+             ./resources/images/mujeres/m_manos_cruz.jpg 768w,
+             ./resources/images/mujeres/m_manos_cruz.jpg 200w,
+             ./resources/images/mujeres/m_manos_cruz.jpg 600w,
+             ./resources/images/mujeres/m_manos_cruz.jpg 1200w"
+             sizes="(max-width: 400px) 100vw, 400px" id="imageresource11"/>
+            </a>
+            <!--a class="theme-overlay1 btn btn-brand btn-sm text-left" target="_blank" href="https://themes.getbootstrap.com/preview/?theme_id=1468">Live preview
+            </a-->
+          </div>
+          <div class="shop-item-footer" id="demo11">
+              <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Playeras Manos Cruzadas
+                </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Precio
+                <span class="badge badge-pill">&#36; 170.00MXN</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Colores
+                <span class="badge badge-pill">
+                  <span class="rating_negro"></span>
+                  <span class="rating_azul"></span>
+                  <span class="rating_blanco"></span>
+                </span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Tallas
+                <span class="badge badge-pill">CH&#45;M&#45;G&#45;XG</span>
+              </li>
+            </ul>
+            </div>
+        </div>
+      </div>
+</div>
+    </div>
+
+   <div class="theme-cards-holder" id="mandilones_dat">
+      <div class="theme-cards__heading">
+         <div>
+           <h5 class="theme-cards__title">Parejas</h5>
+           <p class="text-gray-soft">Modelos de playeras para Parejas.</p>
+         </div>
+    </div>
+
+  <div class="row">
+      <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+        <div class="card-image-item">
+          <div class="shop-item-body">
+            <!--div class="theme-overlay2">
+              <div class="theme-child text-center">
+                <h5>Playeras personalizadas.</h5>
+              </div>
+            </div>
+            <div class="theme-overlay3">
+              <div class="theme-child text-center">
+                <h5>AGOTADO!!!</h5>
+              </div>
+            </div-->
+          <a class="d-block" id="pop12" >
+          <img class="theme-card__img" width="960" height="600"
+          src="./resources/images/mandilones/mand_monos_corazon.jpg"
+          alt="Playeras con Corazones"
+          srcset="./resources/images/mandilones/mand_monos_corazon.jpg 600w,
+          ./resources/images/mandilones/mand_monos_corazon.jpg 800w,
+          ./resources/images/mandilones/mand_monos_corazon.jpg 768w,
+          ./resources/images/mandilones/mand_monos_corazon.jpg 200w,
+          ./resources/images/mandilones/mand_monos_corazon.jpg 400w,
+          ./resources/images/mandilones/mand_monos_corazon.jpg 1200w"
+          sizes="(max-width: 600px) 100vw, 600px" id="imageresource12"/>
+            </a>
+            <!--a class="theme-overlay1 btn btn-brand btn-sm text-left" target="_blank" href="https://themes.getbootstrap.com/preview/?theme_id=1468">Live preview
+            </a-->
+          </div>
+          <div class="shop-item-footer" id="demo12">
+              <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Playeras con Corazones
+                </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Precio
+                <span class="badge badge-pill">&#36; 350.00MXN</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Colores
+                <span class="badge badge-pill">
+                  <span class="rating_blanco"></span>
+                  <span class="rating_negro"></span>
+                  <span class="rating_gris"></span>
+                </span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Tallas
+                <span class="badge badge-pill">CH&#45;M&#45;G&#45;XG</span>
+              </li>
+            </ul>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+        <div class="card-image-item">
+          <div class="shop-item-body">
+            <!--div class="theme-overlay2">
+              <div class="theme-child text-center">
+                <h5>Playeras personalizadas.</h5>
+              </div>
+            </div>
+            <div class="theme-overlay3">
+              <div class="theme-child text-center">
+                <h5>AGOTADO!!!</h5>
+              </div>
+            </div-->
+          <a class="d-block" id="pop13" >
+          <img class="theme-card__img" width="960" height="600"
+            src="./resources/images/mandilones/mand_monos_audif.jpg"
+            alt="Playeras con Audifonos"
+            srcset="./resources/images/mandilones/mand_monos_audif.jpg 600w,
+            ./resources/images/mandilones/mand_monos_audif.jpg 800w,
+            ./resources/images/mandilones/mand_monos_audif.jpg 768w,
+            ./resources/images/mandilones/mand_monos_audif.jpg 200w,
+            ./resources/images/mandilones/mand_monos_audif.jpg 400w,
+            ./resources/images/mandilones/mand_monos_audif.jpg 1200w"
+            sizes="(max-width: 600px) 100vw, 600px" id="imageresource13"/>
+            </a>
+            <!--a class="theme-overlay1 btn btn-brand btn-sm text-left" target="_blank" href="https://themes.getbootstrap.com/preview/?theme_id=1468">Live preview
+            </a-->
+          </div>
+          <div class="shop-item-footer" id="demo13">
+              <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Playeras con Audifonos
+                </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Precio
+                <span class="badge badge-pill">&#36; 350.00MXN</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Colores
+                <span class="badge badge-pill">
+                  <span class="rating_blanco"></span>
+                  <span class="rating_menta"></span>
+                  <span class="rating_cielo"></span>
+                  <span class="rating_gris"></span>
+                </span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Tallas
+                <span class="badge badge-pill">CH&#45;M&#45;G&#45;XG</span>
+              </li>
+            </ul>
+            </div>
+        </div>
+      </div>
+  </div>
+    </div>
+</main>
+</main>
+<footer id="footer" class="footer page-footer font-small mdb-color pt-4 mt-4">
+  <div class="container text-center text-md-left">
+          <div class="row text-center text-md-left mt-3 pb-3">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="mb-4 font-weight-bold">LiOs</h6>
+              <p>Playeras personalizadas.</p>
+              <p>Email: playeraslios@gmail.com</p>
+              <p>Lun-Vie de 8:00 am a 6:00 pm</p>
+            </div>
+            <hr class="w-100 clearfix d-md-none">
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Productos</h6>
+              <p><a href="#!">Playeras</a></p>
+              <p><a href="#!">Gorras</a></p>
+              <p><a href="#!">Sudaderas</a></p>
+              <!--p><a href="#!">Bootstrap Angular</a></p-->
+            </div>
+            <hr class="w-100 clearfix d-md-none">
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="mb-4 font-weight-bold">Anunciate aqui</h6>
+              <!--p><a href="#!">Your Account</a></p>
+              <p><a href="#!">Become an Affiliate</a></p>
+              <p><a href="#!">Shipping Rates</a></p>
+              <p><a href="#!">Help</a></p-->
+            </div>
+            <hr class="w-100 clearfix d-md-none">
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
+              <p><i class="fa fa-home mr-3"></i> Ciudad de Mexico, MX</p>
+              <p><i class="fa fa-envelope mr-3"></i> playeraslios@gmail.com</p>
+              <!--p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+              <p><i class="fa fa-print mr-3"></i> + 01 234 567 89</p-->
+            </div>
+          </div>
+          <hr>
+          <div class="row d-flex align-items-center">
+            <div class="col-md-4 col-lg-4">
+              <p class="text-center text-md-left">© 2018 Copyright <strong>v1.1</strong></p>
+            </div>
+            <div class="col-md-4 col-lg-4">
+              <p class="text-center text-md-left"> <a href="#"><strong> h3Software.com</strong></a></p>
+            </div>
+            <div class="col-md-4 col-lg-4 ml-lg-0">
+              <div class="text-center text-md-right">
+                <ul class="list-unstyled list-inline">
+                  <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1" href="https://www.facebook.com/liz.lios.7"><i class="fa fa-facebook"></i></a></li>
+                  <!--li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-linkedin"></i></a></li-->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+</footer>
       <!-- Modal -->
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
-            <!--div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Detalle </h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div-->
             <div class="modal-body">
-              <ul class="row">
-                 <!--li class="col-md-6">
-                    <div class="card bg-dark text-white">
-                      <img class="card-img" src="" id="imagepreview" style="width: 500px; height: 400px;" >
-                      <div id="cont-demo1">
-                      </div>
-                      <div class="card-img-overlay">
-                        <h5 class="card-title">LiOs</h5>
-                      </div>
-                    </div>
-                 </li-->
+                <ul class="row">
                  <li class="col-md-12">
                    <div class="row">
                      <div class="col-sm-12">
@@ -1119,22 +1148,27 @@
                  </li>
               </ul>
             </div>
-            <!--div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div-->
             <button class="theme-card__body__overlay btn btn-primary" type="button" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
-      <script type='text/javascript'>
+
+   <script src="./resources/js/popper.min.js">
+   </script>
+   <script src="./resources/js/bootstrap.min.js">
+   </script>
+   <script src="./resources/js/docs.min.js"></script>
+     <script type='text/javascript'>
       $("#pop").on("click", function() {
+        /*
          $('#imagepreview').attr('src', $('#imageresource').attr('src'));
+         */
          $("#card-body").empty();
+
          $("#demo").clone().appendTo($("#card-body"));
          $("#at1_2").load('imagenes.html #div_h_call_of_duty');
+
          $('#exampleModal').modal('show');
-         $('#carouselExampleIndicators').carousel();
-         /*$('·carouselExampleIndicators').carousel();*/
            });
       $("#pop1").on("click", function() {
          $('#imagepreview').attr('src', $('#imageresource1').attr('src'));
@@ -1247,5 +1281,5 @@
          $('#exampleModal').modal('show');
       });
       </script>
-   </body>
+</body>
 </html>
