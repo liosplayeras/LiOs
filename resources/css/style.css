@@ -214,11 +214,11 @@ Estilos para barras de paginas.
   text-align: center;
   text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
   background-color: #77bc1f;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#77bc1f), to(#77bc1f));
-  background-image: -webkit-linear-gradient(top, #77bc1f 0, #77bc1f 100%);
-  background-image: -o-linear-gradient(top, #77bc1f 0, #77bc1f 100%);
-  background-image: linear-gradient(to bottom, #77bc1f 0, #77bc1f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#77bc1f', endColorstr='#77bc1f', GradientType=0);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#12263f), to(#12263f));
+  background-image: -webkit-linear-gradient(top, #12263f 0, #12263f 100%);
+  background-image: -o-linear-gradient(top, #12263f 0, #12263f 100%);
+  background-image: linear-gradient(to bottom, #12263f 0, #12263f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#12263f', endColorstr='#12263f', GradientType=0);
   background-repeat: repeat-x
 }
 
@@ -544,7 +544,7 @@ footer.page-footer a {
 .fa-facebook:before {
   content: "\f09a"
 }
-
+/*
 .bs-docs-header,
 .bs-docs-masthead {
   position: relative;
@@ -560,7 +560,7 @@ footer.page-footer a {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#77bc1f', endColorstr='#77bc1f', GradientType=0);
   background-repeat: repeat-x
 }
-
+*/
 .bs-docs-masthead .bs-docs-booticon {
   margin: 0 auto 30px
 }
@@ -910,6 +910,13 @@ CARD
   perspective: 1000px;
   border: 1px solid rgba(0, 0, 0, .125);
   border-radius: 8px;
+}
+
+.card-image-item:hover{
+   box-shadow: 8px 8px 8px 0 rgba(0,0,0,.1);
+   -webkit-box-shadow: 8px 8px 8px 0 rgba(0,0,0,.1);
+   -moz-box-shadow: 8px 8px 8px 0 rgba(0,0,0,.1);
+
 }
 
 .shop-item-footer {
@@ -1326,7 +1333,7 @@ height: 100%;
 /*Móviles en vertical*/
 @media (max-width: 480px) {
 .container, #header.full-header .container, .container-fullwidth {
-width: 100% !important; 
+width: 100% !important;
 }
 ul#portfolio-filter{
 display: block !important;
