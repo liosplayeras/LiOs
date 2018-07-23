@@ -1442,3 +1442,26 @@ height: 100%;
       padding-right: 0px;
     padding-left: 0px;
 }
+/*categories*/
+.category {
+    position: absolute;
+}
+.category, .categories .filler {
+    height: 170px;
+    outline: 1px solid #eae6e6;
+}
+.category {
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 15px;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+.category, .categories .filler {
+    display: block;
+}
